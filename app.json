@@ -1,27 +1,41 @@
 {
   "expo": {
-    "name": "weather-app",
+    "name": "Weather",
     "slug": "weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Images/icon-transparent.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Images/icon-transparent.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#303030"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/Images/icon-transparent.png",
+        "backgroundColor": "#0f56b0"
+      },
+      "package": "com.DVT.Weather"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Images/icon-transparent.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "308a1ce1-a352-4561-83cf-2dbbad7f52bf"
+      }
     }
   }
 }
